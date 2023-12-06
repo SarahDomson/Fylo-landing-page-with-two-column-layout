@@ -19,3 +19,54 @@ header {
     font-size: 27px;
     font-weight: 400;
 }
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.hero-text {
+    margin-top: 200px;
+}
+
+.hero-text >h2 {
+    font-family: 'Open Sans';
+    font-size: 46px;
+    line-height: 1.5;
+    width: 700px;
+    margin-bottom: 30px;
+}
+
+.hero-text >p {
+    font-family: 'Open Sans';
+    font-size: 30px;
+    font-weight: 400;
+    width: 900px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: flex;
+    gap: 30px;
+}
+
+input {
+    width: 500px;
+    height: 55px;
+    border-radius: 5px;
+}
+
+button {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: center;
+    width: 180px;
+    height: 55px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(224, 93%, 58%);
+}
